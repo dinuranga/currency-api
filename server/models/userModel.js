@@ -6,8 +6,8 @@ const userSchema = new mongoose.Schema({
     firstName: String,
     lastName: String,
     email: String
-},{ versionKey: false });
+});
 
-const userModel = mongoose.model("users", userSchema);;
+const userModel = mongoose.model("users", userSchema);
 
 export default userModel;
